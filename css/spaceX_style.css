@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto';
+    background-color: #010001;
+    color: #fff;
+    font-size: 16px;
+    height: 3559px;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6{
+    text-transform: uppercase;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    padding-top: 53px;
+    padding-bottom: 120px;
+}
+.nav img{
+    margin-right: 305px;
+}
+ul{
+    margin: 0 auto;
+    list-style-type: none;
+    display: flex;
+    width: fit-content;
+}
+li{
+    margin-right: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+li a{
+    background:  no-repeat 0 100%; /*не повторяется, начало (x;y)*/
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 2px; /*длина и высота*/
+    transition: background-size .3s ease;
+}
+li a:hover, a:focus {
+    background-size: 100% 2px;
+}
+.menu_right a{
+    color: #808080;
+}
+.menu_center li a, .menu_right li a{
+    font-style: 14px;
+}
+.menu_right{
+    margin-left: auto;
+}
+header{
+    margin-bottom: 120px;
+}
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+}
+.falcon p{
+    margin-top: 26px;
+    font-weight: 300;   
+    line-height: 140%;
+    text-align: center;
+}
+.line{
+    width: 0px;
+    height: 59px;
+    padding: 0;
+    margin: 0 auto;
+    border: 1px solid #FFFFFF;
+    position: relative;
+    top: 26px;
+}
+.earth{
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.inf{
+    padding-top: 492px;
+}
+.overview{
+    margin-bottom: 218px;
+    height: fit-content;
+}
+h2{
+    line-height: 140%;
+    font-size: 24px;
+    margin-bottom: 45px;
+}
+table{
+    line-height: 179.69%;
+    font-size: 18px;
+}
+table span{
+    color: #808080;
+}
+td:first-child{
+    text-transform: uppercase;
+    padding: 0 130px 11px 0;
+}
+.addition{
+    margin-bottom: 507px;
+}
+.addition p{
+    line-height: 29px;
+}
+footer{
+    font-size: 18px;
+    align-items: center;
+}
+footer img{
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 43px;
+}
+footer ul{
+    margin-bottom: 36px;
+}
+footer p{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #808080;
+}
+.button{
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 6px;
+    padding: 20px 87px;
+    text-decoration: none;
+    font-style: 18px;
+    text-align: center;
+    color: #fff;
+    border: 2px solid #FFFFFF;
+    transition-duration: 0.5s; 
+}
+.button:hover{
+    transition-duration: 0.5s; 
+    background-color: #ffffff;
+    color: #010001;
+}
+
+
+
+
+
+
+
